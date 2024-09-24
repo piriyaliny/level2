@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Priya</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum cum
+        voluptates provident deleniti corrupti suscipit rerum vel voluptatibus,
+        pariatur voluptas reiciendis? Voluptatum officiis rem aut fuga sint. Nam
+        blanditiis iure dolores consectetur sapiente vero nobis explicabo libero
+        nesciunt? Eligendi tenetur ab consectetur numquam officiis id impedit
+        nemo nisi magnam.
+      </p>
+    </div>
+    <div class="container-fluid">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit
+        deserunt ad eos odit consequuntur molestias reiciendis repudiandae
+        omnis. Veniam inventore laudantium harum consequuntur vel hic, nihil
+        officia ex odit sit sint unde atque, repellendus optio rerum, natus quos
+        libero dolorum. Minima vitae explicabo voluptatem quae autem error
+        delectus blanditiis?
+      </p>
+    </div>
+    <div class="row">
+        <div class="col-7 bg-primary">one</div>
+        <div class="col-5 bg-dark">two</div>
+    </div>
+    <div class="row">
+        <div class="col-3 bg-info">one</div>
+        <div class="col-3 bg-danger">two</div>
+        <div class="col-3 bg-success">three</div>
+        <div class="col-3 bg-warning">four</div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
