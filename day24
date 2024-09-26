@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Priyaliny</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+
+      <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+        <div class="container-fluid ">
+          <img style="width: 300px;"
+            src="logo.jfif" alt="" />
+
+          <ul class="navbar-nav">
+            <li class="nav-item"></li>
+                <a class="nav-link active" href="d24.html">home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="DAY1.html">Page-1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="DAY2.html">Page-2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="DAY3.html">Page-3</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- place navbar here -->
+    </header>
+    <main>
+      <div>
+        <h1>day24</h1>
+        <h1>sample about collapse</h1>
+        <button
+          class="btn btn-primary"
+          data-bs-toggle="collapse"
+          data-bs-target="#priya"
+        >
+          collaps button
+        </button>
+
+        <div class="collapse" id="priya">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            sapiente, accusantium animi ratione et a, vitae expedita recusandae
+            esse excepturi qui neque quaerat voluptates veniam autem illum porro
+            minima eos impedit. Nostrum recusandae dolorem harum facere
+            voluptates aperiam voluptate qui, quo, vero perspiciatis, suscipit
+            veniam obcaecati nulla provident temporibus distinctio!
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            sapiente, accusantium animi ratione et a, vitae expedita recusandae
+            esse excepturi qui neque quaerat voluptates veniam autem illum porro
+            minima eos impedit. Nostrum recusandae dolorem harum facere
+            voluptates aperiam voluptate qui, quo, vero perspiciatis, suscipit
+            veniam obcaecati nulla provident temporibus distinctio!
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
