@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(57, 5, 201);
+        }
+        h3{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Operators</h1>
+    <hr>
+    <h3>
+        01.Arithmetic operator
+    </h3>
+    <script>
+        let a=10;
+        let b=2;
+        let c=a+b;
+        let d=a-b;
+        let e=a*b;
+        let f=a/b;
+        let g=a%b;
+        let h=a++;
+        let i=a--;
+
+        document.write('Addition operator '+c+"<br>");
+        document.write('Subtraction operator '+d);
+        document.write("<br>");
+        document.write('Multiplication operator '+e);
+        document.write("<br>");
+        document.write('Division operator '+f);
+        document.write("<br>");
+        document.write('Modulus operator '+g);
+        document.write("<br>");
+        document.write('Increment operator '+h);
+        document.write("<br>");
+        document.write('Decrement operator '+i+c+"<br>");
+    </script>
+    <hr>
+    <h3>
+        02.Comparison operator
+    </h3>
+    <script>
+        document.write("<br>");
+        let x=5;
+        let y=1;
+        document.write(x==y);
+        document.write("<br>");
+        document.write(x!=y);
+        document.write("<br>");
+        document.write(x===y);
+        document.write("<br>");
+        document.write(x+y);
+        document.write("<br>");
+        document.write(x!==y);
+        document.write("<br>");
+        document.write(x>y);
+</script>
+<hr>
+<h3>
+    03.Logical operator
+</h3>
+<script>
+        document.write("<br>");
+        let s=5;
+        let t=10;
+        document.write(s>2 || t>10);
+        document.write("<br>");
+        document.write(s>2 && t>10);
+</script>
+<hr>
+<h3>
+    04.Assignment operators
+</h3>
+<script>
+        document.write("<br>");
+        let p=8;
+        let n=2;
+        p+=n;
+        //p=p+n
+        document.write(p);
+        document.write("<br>");
+         n-=p;
+         //n=n-p
+         document.write(n);
+</script>
+<hr>
+<h3>
+    05.Ternary operator
+</h3>
+<script>
+    let w=2;
+    let z=8;
+    document.write(p>1 ? "positive" : "negative");
+</script>
+<hr>
+</body>
+</html>
