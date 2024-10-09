@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h2{
+      color: blue;
+    }
+  </style>
+  <body>
+    <h2>Type</h2>
+    <script>
+      let a = 45;
+      let b = "one";
+      document.write(typeof a);
+      document.write("<br>");
+      document.write(typeof b);
+    </script>
+    <br />
+    <script>
+      document.write("<br>");
+      let e = "10";
+      let c = "5";
+      let d = "one";
+      document.write(parseInt(e) + parseInt(c));
+    </script>
+    <br />
+    <script>
+      document.write("<br>");
+      // coalescing
+      // x ?? y
+      let x;
+      document.write(x);
+      document.write("<br>");
+      let y = 10;
+      document.write(x ?? 5);
+      document.write("<br>");
+      let xx = 10;
+      let yy;
+      document.write(xx / yy);
+      document.write("<br>");
+      let m = 10;
+      let v;
+      v = v ?? 2;
+      document.write(m / v);
+    </script>
+    <br />
+    <hr>
+    <h2>If Else</h2>
+    <script>
+      document.write("<br>");
+      let priya = false;
+      if (priya == true) {
+        document.write("priya ready to give presentation by tomorrow");
+      } else {
+        document.write("she is not");
+      }
+    </script>
+    <br>
+    <hr>
+    <h2>Multiple if</h2>
+    <script>
+        document.write("<br>");
+        let shana=80;
+        if (shana>70){
+            document.write("shana is above 70");
+        }
+        else if(shana<70 && shana> 50){
+            document.write("shana in second stage");
+        }
+        else{
+            document.write("shana in third stage");
+        }
+        document.write("<br>");
+        document.write("after if condition");
+    </script>
+    <br>
+    <hr>
+    <h2>For loop</h2>
+    <h3>01.</h3>
+    <script>
+      let tree = ["Banana tree","Coconut tree","Apple tree"];
+      for (a = 0; a < tree.length; a++) {
+        document.write(tree[a] + "<br>");
+      }
+    </script>
+    <h3>02.</h3>
+    <script>
+        let students =["Mayu","Priya","Niru","Kajuree","Aathi"]
+      for (a=0; a<students.length;a++){
+        document.write(students[a]+"<br>")
+      }
+    </script>
+  </body>
+</html>
+
