@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const Names = ["Mayu", "Aathi", "niru", "prindo"];
+      console.log(Names[0]);
+      console.log(Names[1]);
+      console.log(Names[2]);
+      console.log(Names[3]);
+      console.log(Names[4]);
+      console.log("");
+      for (let i = 0; i < Names.length; i++) {
+        console.log(Names[i]);
+      }
+      console.log("");
+      let x = 0;
+      while (x < Names.length) {
+        console.log(Names[x]);
+        x++;
+      }
+      //  var priya="abcdg";
+      //  console.log(priya.charAt(2));
+      //  console.log(priya.charCodeAt(2));
+    </script>
+
+    <script>
+      console.log("");
+      const Names1 = ["Mayu", "Aathi", "niru", "prindo"];
+      //   for (let i = 0; i < Names1.length; i++) {
+      //     console.log(Names1[i]);
+      //     if (i == 2) {
+
+      //       break;
+      //       console.log("i reached 2");
+      //     }
+      //   }
+      for (let i = 0; i < Names1.length; i++) {
+        if (i == 1) {
+          continue;
+        }
+        console.log(Names1[i]);
+      }
+    </script>
+    <script>
+        const Names2=[];
+        Names2.push(1);
+        Names2.push(2);
+        console.log(Names2.length);
+        for (let i=0; i<Names1.length; i++){
+Names2.push(Names1[i]);
+        }
+        console.log(Names2.length);
+    </script>
+  </body>
+</html>
